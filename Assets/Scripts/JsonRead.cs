@@ -28,7 +28,7 @@ public class JsonRead : MonoBehaviour
     {
         try
         {
-            string filePath = Application.dataPath + "/" + FilePath;
+            string filePath = Application.dataPath + "/" + FilePath + ".json";
 
             if (File.Exists(filePath))
             {
